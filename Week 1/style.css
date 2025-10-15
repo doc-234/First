@@ -1,0 +1,35 @@
+.make-blue{
+    color: blue;    
+}
+
+.make-bold {
+    font-weight: bold;
+} 
+.first-article{
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.second-article{
+    background-color: lightyellow;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.third-article{
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font: 1em sans-serif;
+}
+
+.fancy-button{
+    border: 3px solid black;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
