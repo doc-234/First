@@ -1,0 +1,58 @@
+/* General Reset to remove default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: black; /* Dark background */
+  padding: 10px 20px; /* Spacing inside navbar */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+}
+
+/* Logo Styles */
+.logo {
+  color: white; /* White text color */
+  font-size: 24px; /* Larger font size */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hamburger Icon Styles */
+/* The fix: Our custom styles now override any conflicting styles from Font Awesome */
+.menu-toggle {
+  color: white; /* White icon color */
+  font-size: 24px; /* Icon size */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: none; /* Hide by default (visible only on mobile) */
+}
+
+/* Navigation Menu Styles */
+.menu {
+  display: flex; /* Display menu items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+/* Menu List Styles */
+.menu ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display list items inline */
+}
+
+/* Menu Item Styles */
+.menu li {
+  margin-left: 20px; /* Space between menu items */
+}
+
+/* Menu Link Styles */
+.menu a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size */
+}
+
