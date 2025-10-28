@@ -41,14 +41,14 @@ body {
 }
 
 .hero {
-  background-color: black;
+  background-color: lightblue;
   padding: 60px;
   text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
   .hero {
-    background-color: lightblue;
+    background-color: black;
   }
 }
 
